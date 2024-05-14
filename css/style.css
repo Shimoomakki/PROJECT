@@ -226,6 +226,7 @@ h2 {
     width: 25%;
   }
 }
+
 .p-card {
   position: relative;
   cursor: pointer;
@@ -291,19 +292,20 @@ h2 {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 40px auto;
+  margin: 30px auto;
   flex-wrap: wrap;
 }
 
 .join-us .box {
   text-align: center;
-  padding: 20px;
+  padding: 20px  ;
   background-color: #0c263d;
   color: white;
   box-shadow: 0px 0px 41px 6px cornflowerblue;
-  width: 250px;
+  width: 200px;
   height: 200px;
   margin-bottom: 15px;
+  
 }
 
 img,
@@ -331,6 +333,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+ 
 }
 .footer .box {
   display: flex;
@@ -362,3 +365,16 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+@media(max-width: 750px){
+  .footer .boxs {
+    display: flex;
+  flex-direction: column;
+
+  }}
+  @media(max-width: 750px){
+    .social{
+      width: auto;
+    }
+  }
+
